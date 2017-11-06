@@ -1,0 +1,259 @@
+body {
+	direction: rtl;
+	text-align: right;
+	unicode-bidi: embed;
+}
+blockquote p {
+	border-right: 3px solid #eee;
+	padding-right: 15px;
+	padding-left: 0;
+	border-left: none;
+}
+dd {
+	margin: 0 20px 0 0;
+}
+ul,
+ol {
+	padding-right: 20px;
+	padding-left: 0;
+}
+
+
+/* =NAV AND SUB NAV
+--------------------------------*/
+
+/* Level One */
+
+#top-menu {
+	float: right;
+	padding: 14px 0 4px 0;
+}
+
+#top-menu li {
+	float: right;
+	margin: 0 0 0 25px;
+}
+
+#top-menu ul:first-child > li {
+	margin: 5px 0 5px 25px;
+}
+
+/* Level Two */
+
+#top-menu li ul {
+	right: 0;
+	left: auto;
+}
+
+/* Level Three */
+
+#top-menu ul ul ul {
+	right: 100%;
+	left: auto;
+}
+
+/* currently selected page nav item (and parent) if applicable */
+
+
+/* =MAIN CONTENT
+------------------------------- */
+
+#primary-content {
+	float: right;
+	margin: 30px 0 0 34px;
+}
+
+#primary-content h1.post-title a,
+#primary-content h2.post-title a {
+	float: right;
+	padding: 0 10px 0 0;
+}
+
+.the-date,
+p.post-meta {
+	padding: 10px 10px 0 0;
+	word-wrap: break-word;
+}
+
+p.post-meta small {
+	padding: 0 10px 5px 0;
+}
+
+.comments {
+	margin: 6px 0 8px 5px;
+	position: absolute;
+		top: 30px;
+		right: auto;
+		left: 10px;
+}
+
+.featured {
+	float: right;
+}
+
+.home-post {
+	margin: 0x 0 0 34px;
+}
+
+.attachment-post-thumbnail {
+	text-align: right;
+}
+
+img.attachment-following-post-thumbnails {
+	float: right;
+	margin: 0 0 25px 15px;
+}
+
+.home-pagination {
+	float: right;
+}
+
+.pagination-newer {
+	float: left;
+	text-align: left;
+}
+
+.pagination-older {
+	float: right;
+}
+
+.page-link a {
+	border-left: 1px solid #999;
+	margin-left: 4px;
+	margin-right: auto;
+	border-right: none;
+}
+
+
+/* =SIDEBAR
+------------------------------- */
+
+#secondary-content,
+#secondary-home {
+	float: right;
+}
+
+#secondary-content h3 {
+	padding-right: 15px;
+	padding-left: 0;
+}
+
+#secondary-content ul {
+	margin: 0 30px 0 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#searchform label {
+	float: right;
+}
+
+#searchform #search-btn,
+#searchsubmit,
+#error-search {
+	background: url("images/searchrtl.png") no-repeat 3px 3px #fd9e00;
+	border-radius: 10px 0 0 10px;
+}
+.wp-logo {
+	margin-right: 5px;
+	margin-left: auto;
+}
+
+/* normally hidden but will appear when css disabled */
+
+.skip,
+.no-css {
+	right: -9999px;
+	left: auto;
+}
+
+/*theme requirements as per http: //codex.wordpress.org/CSS*/
+
+.aligncenter,
+div.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.alignright {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+.alignleft {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+
+/* SOCIAL MEDIA ICONS
+------------------------------- */
+
+.social-media {
+	float: left;
+}
+
+a.rss {
+	float: left;
+}
+
+a.twitter,
+a.facebook,
+a.googleplus {
+	float: right;
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+
+/* =SEARCH
+------------------------------- */
+
+#s {
+	float: right;
+	padding-right: 5px;
+	padding-left: 0;
+}
+
+
+/* =COMMENTS & COMMENT FORM
+------------------------------- */
+
+#commentlist {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#commentlist li.comment ul,
+#commentlist li.comment ol {
+	margin-right: 20px;
+	margin-left: auto;
+}
+
+#commentform label {
+	padding-left: 15px;
+	padding-right: 0;
+	text-align: left;
+}
+
+.comment-form-author label,
+.comment-form-email label,
+.comment-form-url label {
+	float: right;
+}
+
+#commentform input {
+	margin-right: 50px;
+	margin-left: auto;
+}
+
+#commentform input#url {
+	margin-right: 58px;
+	margin-left: auto;
+}
+
+.avatar {
+	float: right;
+	margin-left: 20px;
+	margin-right: auto;
+}

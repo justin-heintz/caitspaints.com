@@ -1,0 +1,324 @@
+/* Normalize
+-------------------------------------------------------------- */
+
+ul {
+	margin: 0 2.8em 1.692307em 0;
+}
+ol {
+	margin: 0 3.1em 1.692307em 0;
+}
+dl {
+	margin: 0 5px 1.692307em 0;
+}
+dd {
+	margin: 5px 1.5em 0 0;
+}
+legend {
+	*margin-right: -7px;
+}
+th,
+td {
+	text-align: right;
+}
+
+
+/* WordPress classes
+-------------------------------------------------------------- */
+
+.right,
+.alignright {
+	float: right;
+	margin: 0 0 5px 15px;
+}
+.left,
+.alignleft {
+	float: left;
+	margin: 0 25px 10px 0;
+}
+
+
+/* Tables
+-------------------------------------------------------------- */
+
+table th {
+	text-align: right;
+}
+
+/* Lists
+-------------------------------------------------------------- */
+
+dl {
+	margin: 0 30px 20px 0;
+}
+dl dd {
+	margin: 0 20px 5px 0;
+}
+
+
+/* Blockquotes
+-------------------------------------------------------------- */
+
+blockquote,
+blockquote blockquote blockquote {
+	padding: 0 40px 0 0;
+}
+
+
+/* Captions [caption]
+-------------------------------------------------------------- */
+
+.wp-caption .wp-caption-text {
+	text-align: right;
+}
+
+
+/* Galleries
+-------------------------------------------------------------- */
+
+.gallery .gallery-item {
+	float: right;
+	text-align: right;
+}
+.attachment-image {
+	float: right;
+}
+
+
+/* Layout
+-------------------------------------------------------------- */
+
+#content {
+	float: right;
+}
+#sidebar-primary {
+	float: left;
+}
+#comments-template {
+	clear: right;
+}
+
+
+/* Primary menu
+-------------------------------------------------------------- */
+
+#menu-primary {
+	float: left;
+}
+#menu-primary .menu {
+	float: left;
+}
+#menu-primary .menu ul {
+	float: left;
+}
+#menu-primary li {
+	float: right;
+}
+#menu-primary li a {
+	margin-right: 3.5em;
+	margin-left: auto;
+}
+
+
+/* Dropdowns
+-------------------------------------------------------------- */
+
+.menu li {
+	float: right;
+}
+#menu-primary li ul {
+	right: 12px;
+	left: auto;
+}
+#menu-primary li li:hover ul,
+#menu-primary li li.sfHover ul {
+	margin-right: 0;
+	right: 10em;
+	left: auto;
+	margin-left: auto;
+}
+.sf-sub-indicator {
+	background: url(images/dropdown.png) no-repeat left 0;
+	margin-right: 5px;
+	left: 0;
+	right: auto;
+	margin-left: auto;
+}
+.menu li li .sf-sub-indicator {
+	background: url(images/dropleft.png) no-repeat left 50%;
+	margin-left: 7px;
+	margin-right: auto;
+}
+.menu li a.sf-with-ul,
+#menu-secondary li a.sf-with-ul {
+	padding-left: 16px;
+	padding-right: 0;
+}
+
+
+/* Header
+-------------------------------------------------------------- */
+
+#branding {
+	float: right;
+}
+#site-description {
+	float: right;
+}
+
+/* Posts
+-------------------------------------------------------------- */
+
+.hentry {
+	float: right;
+}
+.singular .hentry {
+	float: right;
+}
+.sticky .sticky-header {
+	float: right;
+}
+.sticky .byline {
+	clear: right;
+}
+.sticky .entry-summary {
+	border-right: 1px solid #e5e5e5;
+	float: left;
+	padding-right: 2.34375%;
+	padding-left: 0;
+	border-left: none;
+}
+.hentry .thumbnail {
+	float: right;
+	margin: 3px 0 20px 3.90625%;
+}
+
+
+/* Singular post prev/next links
+-------------------------------------------------------------- */
+
+.singular .loop-nav {
+	clear: right;
+}
+.loop-nav .previous {
+	float: right;
+}
+.loop-nav .next {
+	float: left;
+	text-align: left;
+}
+
+
+/* Archive/search pagination and comment pagination
+-------------------------------------------------------------- */
+
+.pagination.loop-pagination {
+	float: right;
+}
+
+
+/* Sidebar after singular posts
+-------------------------------------------------------------- */
+
+#sidebar-after-singular {
+	float: right;
+}
+
+
+/* Widgets
+-------------------------------------------------------------- */
+
+.sidebar .widget {
+	float: right;
+}
+
+
+/* Widget unordered lists
+-------------------------------------------------------------- */
+
+.sidebar .widget ul {
+	margin-right: 14px;
+	margin-left: auto;
+}
+
+
+/* Search form widget
+-------------------------------------------------------------- */
+
+.widget .search-form input[type="text"] {
+	float: right;
+}
+
+
+/* Comments
+-------------------------------------------------------------- */
+
+.commentlist li li {
+	padding-right: 10.15625%;
+	padding-left: 0;
+}
+.commentlist .avatar {
+	float: right;
+	margin: 0 0 10px 15px;
+}
+.comment-author {
+	margin-left: 10px;
+	margin-right: auto;
+}
+.comment-content {
+	margin-right: 65px;
+	margin-left: auto;
+}
+
+
+/* Comment form
+-------------------------------------------------------------- */
+
+#reply-title small a {
+	padding-left: 8px;
+	padding-right: 0;
+}
+#commentform input {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+
+/* Subsidiary sidebar
+-------------------------------------------------------------- */
+
+#sidebar-subsidiary .widget {
+	float: right;
+	margin: 0 0 20px 3.191489361702128%;
+}
+
+
+/* Comment form
+-------------------------------------------------------------- */
+
+#reply-title small a {
+	padding-left: 8px;
+	padding-right: 0;
+}
+#commentform input {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+/* Subsidiary sidebar
+-------------------------------------------------------------- */
+
+#sidebar-subsidiary .widget {
+	float: right;
+	margin: 0 0 20px 3.191489361702128%;
+}
+
+
+/* WordPress.com Styles
+-------------------------------------------------------------- */
+
+#wp-calendar #next {
+	text-align: left;
+}
+
+
+/* Generated by the RTLer - http://wordpress.org/extend/plugins/rtler/ */

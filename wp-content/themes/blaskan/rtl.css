@@ -1,0 +1,296 @@
+/** TODO reverse blockquote background image
+ * Text
+ */
+
+blockquote {
+	background: url(img/sprite-reverse.png) 100% -85px no-repeat;
+	color: #888;
+	padding: 0 35px;
+	margin: 0 0 20px;
+}
+.multiplebgs blockquote {
+	background-position: 0 -85px, bottom left;
+}
+
+/**
+ * Lists
+ */
+
+ol ol {
+	margin-right: 30px;
+	margin-left: auto;
+}
+ol ol ol {
+	margin-right: 30px;
+	margin-left: auto;
+}
+dd {
+	margin: 0 20px 20px 0;
+}
+
+/**
+ * Tables
+ */
+
+thead th {
+	text-align: right;
+	padding-left: 0;
+	padding-right: 0;
+}
+th {
+	text-align: right;
+}
+caption {
+	text-align: right;
+}
+
+/**
+ * Forms
+ */
+
+legend {
+	margin-right: -10px;
+	margin-left: auto;
+}
+input[type=submit] {
+	background: -webkit-gradient(linear, right top, right bottom, from(#76aee8), to(#2e6eb0));
+}
+input[type=submit]:hover,
+input[type=submit]:focus {
+	background: -webkit-gradient(linear, right top, right bottom, from(#fba2b5), to(#f43059));
+}
+input[type=submit]:active {
+	background: -webkit-gradient(linear, right top, right bottom, from(#f43059), to(#fba2b5));
+}
+
+/**
+ * Images
+ */
+
+img.size-thumbnail {
+	margin: 0 0 20px 20px;
+}
+img.size-thumbnail.alignright {
+	margin: 0 20px 20px 0;
+}
+img.size-thumbnail.alignleft {
+	margin: 0 0 20px 20px;
+}
+
+/* Contain floats: h5bp.com/q */
+
+figure img {
+	float: right;
+}
+
+
+/** =HEADER
+--------------------------------- */
+
+.background-image #header {
+	margin-right: 0;
+	padding-right: 0;
+	padding-left: 0;
+	margin-left: auto;
+}
+#nav li {
+	float: right;
+}
+#nav a {
+	background: -webkit-gradient(linear, right top, right bottom, from(#454545), to(#000));
+	margin: 0 0 1px 1px;
+}
+#nav a:focus,
+#nav a:hover {
+	background: -webkit-gradient(linear, right top, right bottom, from(#666), to(#000));
+}
+#nav .menu > ul > .current_menu_item > a,
+#nav .menu > ul > .current_page_item > a,
+#nav .menu > ul > .current_menu_item > a:hover,
+#nav .menu > ul > .current_page_item > a:hover,
+#nav .menu > ul > .current_menu_item > a:focus,
+#nav .menu > ul > .current_page_item > a:focus,
+#nav .menu > ul > .current_page_ancestor > a {
+	background: -webkit-gradient(linear, right top, right bottom, from(#999), to(#000));
+}
+#nav ul ul {
+	float: right;
+	right: 0;
+	left: auto;
+}
+#nav ul ul ul {
+	right: 100%;
+	left: auto;
+}
+#nav li:hover > a {
+	background: -webkit-gradient(linear, right top, right bottom, from(#666), to(#000));
+}
+#nav .has-children > a:after {
+	margin-right: 10px;
+	text-align: left;
+	margin-left: auto;
+}
+#nav li .has-children > a:after {
+	float: left;
+	content: "\25C0";
+}
+#nav li li:hover > a,
+#nav ul ul :hover > a,
+#nav li li a:focus {
+	background: -webkit-gradient(linear, right top, right bottom, from(#000), to(#222));
+}
+
+
+/** =DEFAULT WORDPRESS CLASSES
+--------------------------------- */
+
+.aligncenter,
+div.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+}
+.alignright {
+	float: right;
+	margin-left: 20px;
+	margin-right: auto;
+}
+.alignleft {
+	float: left;
+	margin-right: 20px;
+	margin-left: auto;
+}
+
+
+/** =POST NAV
+--------------------------------- */
+
+.navigation a {
+	padding: 0 26px 0 0;
+}
+.navigation .nav-previous {
+	float: right;
+}
+.navigation .nav-previous a {
+	background-position: right -56px;
+	padding: 0 26px 0 0;
+}
+.navigation .nav-next {
+	float: left;
+}
+.navigation .nav-next a {
+	background-position: left -24px;
+	padding: 0 0 0 26px;
+}
+
+
+/** =SEARCH FORM
+--------------------------------- */
+
+#searchsubmit {
+	left: 12px;
+	right: auto;
+}
+body.content-wide #content #searchsubmit {
+	right: 514px;
+}
+@media only screen and (max-width: 480px) {
+
+	#searchsubmit {
+		left: 12px;
+		right: auto;
+	}
+	body.content-wide #content #searchsubmit {
+		left: 12px;
+		right: auto;
+	}
+
+}
+
+
+/** =GALLERY
+--------------------------------- */
+
+#content dl.gallery-item {
+	text-align: right;
+}
+#content .gallery-caption {
+	text-align: right;
+}
+
+
+/** =COMMENTS
+--------------------------------- */
+
+.comment-header figure {
+	float: right;
+	margin: 0 0 0 10px;
+}
+.bypostauthor>.comment-header {
+	border-right: 10px solid #000;
+	padding: 0 10px 0 0;
+	border-left: none;
+}
+#comments .children {
+	border-right: 1px solid #ccc;
+	padding: 0 20px 0 0;
+	border-left: none;
+}
+.reply a {
+	background: -webkit-gradient(linear, right top, right bottom, from(#fff), to(#f8f8f8));
+	margin: 0 0 0 2px;
+}
+.reply a:hover {
+	background: -webkit-gradient(linear, right top, right bottom, from(#fff), to(#ededed));
+}
+.reply a:active {
+	background: -webkit-gradient(linear, right top, right bottom, from(#ededed), to(#fff));
+}
+
+
+/** =WIDGETS
+--------------------------------- */
+
+.widget ul ul {
+	margin: 0 10px 0 0;
+}
+
+/**
+ * Calendar widget
+ */
+
+.widget_calendar caption {
+	text-align: right;
+}
+.widget_calendar #next {
+	text-align: left;
+}
+
+/**
+ * RSS Widget
+ */
+
+.widget_rss .title a.rsswidget:first-child {
+	float: left;
+}
+
+
+/** =ARCHIVES AND SEARCH
+--------------------------------- */
+
+/**
+ * Author and date archives
+ */
+
+.archive.date #content h2 {
+	float: right;
+}
+.author #content li time,
+.archive.date #content li time {
+	float: left;
+}
+.author .avatar {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+/* Generated by the RTLer - http://wordpress.org/extend/plugins/rtler/ */
